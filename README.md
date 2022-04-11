@@ -17,8 +17,6 @@ No README do teste também possui um exemplo de objeto de usuário:
 
 Optei por usar o CPF como string, pois como número poderia ter um bug onde se o CPF começasse com 0 (exemplo: 001.234.567-89), ao salvar no banco de dados os primeiros dígitos seriam deletados, invalidando o CPF (deixando dessa forma: 1.234.567-89).
 
-<br>
-
 # Rodando o app
 
 1. Crie um arquivo `.env` e insira os valores conforme especificado no arquivo `.env.example`
@@ -34,8 +32,6 @@ Lembre-se de utilizar a mesma senha e porta que inseriu no `.env`!
 4. Inicie o app utilizando `yarn start` ou `npm run start`
 
 5. Para rodar a suite de testes utilize `yarn test` ou `npm run test`
-
-<br>
 
 # Insomnia
 
