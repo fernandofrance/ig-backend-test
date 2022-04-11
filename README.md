@@ -1,6 +1,6 @@
 # Considerações
 
-Não consegui colocar a API em um container Docker e fazer ela se comunicar com o meu banco de dados, tive problema de connection refused enquanto realizava os testes. O banco de dados pode ser usado com o Docker sem problemas, como explicado nas instruções abaixo. Espero não ser um fator desclassificatório do teste, com mais alguns dias de prazo eu conseguiria resolver este problema.
+Não consegui colocar a API em um container Docker e fazer ela se comunicar com o meu banco de dados, tive problema de connection refused enquanto realizava os testes. O banco de dados pode ser usado com o Docker sem problemas, como explicado nas instruções abaixo. Espero não ser um fator desclassificatório do teste, com mais alguns dias de prazo para estudo eu conseguiria resolver este problema.
 
 O teste também requisita TDD, comecei a aprender sobre ele e o Docker recentemente, então os testes que escrevi nessa aplicação podem estar incompletos por falta de conhecimento, porém eu entendo os princípios do TDD (test first, code later) e consigo trabalhar em projetos que utilizam essa metodologia.
 
