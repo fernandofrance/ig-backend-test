@@ -83,7 +83,7 @@ const updateTitleAndDate = async (req: Request, res: Response) => {
   const { title, date, id_usuario } = req.body;
   const { id } = req.params as unknown as TRequest;
 
-  if(!title || !date || id) {
+  if(!title || !date || !id) {
     return res.status(400).json({ success: false, message: "Missing title, date or id in request" });
   }
 
@@ -105,7 +105,7 @@ const updateStatus = async (req: Request, res: Response) => {
   const { id_usuario, done } = req.body;
   const { id } = req.params as unknown as TRequest;
 
-  if(!done || !id) {
+  if(done == undefined || !id) {
     return res.status(400).json({ success: false, message: "Missing done or id in request" });
   }
 
